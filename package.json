@@ -1,0 +1,17 @@
+{
+  "name": "roam-map-builder",
+  "version": "1.0.0",
+  "description": "Procedural map generation pipeline for game development",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jimp": "^0.22.10",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+} 
