@@ -32,8 +32,6 @@ The map generation pipeline follows these steps:
   2. Assign each grid cell height and slope features
   3. Create placement masks for each object type based on terrain suitability
 
-## Getting Started
-
 ### Prerequisites
 
 - Node.js (v14+)
@@ -106,20 +104,3 @@ src/
 ├── utils/                # Utility functions
 └── index.js              # Main entry point
 ```
-
-## Future Improvements
-
-- Integration with Unity/Unreal Engine
-- More sophisticated NLP processing for better semantic understanding
-- Support for more complex terrain features
-- Real-time preview of generated maps
-- Custom object library support
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Inspired by the ProceduralDungeon generator for grid generation
-- Makes use of World Machine's Lua API for terrain processing 
